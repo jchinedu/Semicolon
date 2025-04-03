@@ -10,7 +10,7 @@ while(studentCounter <= 10 ) {
 System.out.print("Enter result (1 = pass, 2 = fail): ");
 int result = input.nextInt();
 if(result == 1) {
-passes = passes + 1;
+   passes = passes + 1;
 } else
 {
 failures = failures + 1;
