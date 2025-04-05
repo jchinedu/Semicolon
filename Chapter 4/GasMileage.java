@@ -38,6 +38,6 @@ else {
 System.out.println("sorry no gallons used");
 }
 double MilesPerGallon = AverageMiles / AverageGallons;
-System.out.printf("%n the milespergallon of the figures entered is %.2f%n", MilesPerGallon);
+System.out.printf("the milespergallon of the figures entered is %.2f%n", MilesPerGallon);
 }
 }
