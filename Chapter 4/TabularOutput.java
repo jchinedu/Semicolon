@@ -1,4 +1,4 @@
-7public class TabularOutput{
+public class TabularOutput{
 public static void main(String[] args) {
 int num = 6;
 int n = 1;
