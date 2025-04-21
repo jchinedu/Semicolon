@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 public class DeyPlay {
       public static void main (String[] args) {
           int max = 0;

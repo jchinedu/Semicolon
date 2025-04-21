@@ -31,7 +31,7 @@ public class LetterGrade {
               ++aCount;
                break;
           case 8:
-              ++bCount;
+              ++bCount; 
                break;
           case 7:
               ++cCount;
