@@ -5,7 +5,7 @@ public class LargestAndSmallest {
 	int smallest = 0;
 	int counter = 0;
 	Scanner input = new Scanner(System.in);
-	while(counter!=0) {
+	while(true) {
 	System.out.print("enter integers or zero to quit: ");
 	int number = input.nextInt();
 	if(number == 0) {

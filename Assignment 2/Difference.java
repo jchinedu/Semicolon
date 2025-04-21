@@ -8,7 +8,7 @@ public class Difference {
 	int Number2 = input.nextInt();
 	int diff = Number1 - Number2;	
         if(Number1 > Number2) {
-	   System.out.printf("the difference of their number is %d", diff);}
+	   System.out.printf("the difference of their number is %d", diff);}n 
 	else {
 	}
 		
