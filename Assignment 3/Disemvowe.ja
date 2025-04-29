@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Disemvowel {
+ public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	System.out.print("enter a sentence");
+	String word = input.nextLine();
+	String name = word.length;
+	String newWord ="";
+	for(int i = 0; i <= name; i++) {	
+	char john = Character.toUpperCase(word.charAt(1));
+  if(john != 'A' && john != 'E' && john != 'I' && john != 'O' && john != 'U'){
+	newWord += charAt(i);
+	}
+          }
+	System.out.println(newWord);
+}
+  }
+
+	
+	
