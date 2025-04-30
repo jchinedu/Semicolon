@@ -1,46 +1,47 @@
 import java.util.Random;
 import java.util.Scanner;
-Public class MysteryGamme {
+public class MysteryGamme {
 	public static void main(String[] args) {
-		int num = 0;
 	Scanner input = new Scanner(System.in);
 	Random rand = new Random();
-	System.out.print("input a number from 1-10");
-	int num = input.nextInt();
-	if(num == rand) {
+	int randomNumber = rand.nextInt(10) + 1;
+	int num = 0;
+	System.out.println("input a number from 1-10");
+	 num = input.nextInt();
+	if(num == randomNumber) {
 	  System.out.println("this is a match");
 	} else {
-	 if(num < rand) {
-		System.out.print("this is low");
+	 if(num < randomNumber) {
+		System.out.println("this is low");
 	}
-	if(num > rand) {
-		System.out.print("this is too high");
+	if(num > randomNumber) {
+		System.out.println("this is too high");
 	}
          
 	
-	System.out.print("input a number from 1-10");
-	int num = input.nextInt();
-	if(num == rand) {
+	System.out.println("input a number from 1-10");
+	 num = input.nextInt();
+	if(num == randomNumber) {
 	  System.out.println("this is a match");
 	} else {
-	 if(num < rand) {
-		System.out.print("this is low");
+	 if(num < randomNumber) {
+		System.out.println("this is low");
 	}
-	if(num > rand) {
-		System.out.print("this is too high");
+	if(num > randomNumber) {
+		System.out.println("this is too high");
 	}
 	
 	
-	System.out.print("input a number from 1-10");
-	int num = input.nextInt();
-	if(num == rand) {
+	System.out.println("input a number from 1-10");
+	 num = input.nextInt();
+	if(num == randomNumber) {
 	  System.out.println("this is a match");
 	} else {
-	 if(num < rand) {
-		System.out.print("this is low");
+	 if(num < randomNumber) {
+		System.out.println("this is low");
 	}
-	if(num > rand) {
-		System.out.print("this is too high");
+	if(num > randomNumber) {
+		System.out.println("this is too high");
 	}
 	 }
 	}
