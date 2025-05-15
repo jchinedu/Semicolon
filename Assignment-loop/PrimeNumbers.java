@@ -8,12 +8,13 @@ public class PrimeNumbers {
 	for(int i = 2; i < Number; i++) {
 	   if(Number % i == 0) {
 	count++;
+	System.out.print(count);
 	}
 	 }	
 	if(count > 0) {
 	System.out.println(Number + " is not a prime number");
 	} else {
-	  System.out.println(Number + " is a prime number");
+	  System.out.println(Number + " is a prime number" );
 	}
 }
   }

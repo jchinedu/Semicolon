@@ -4,15 +4,28 @@ public static void main(String[] args) {
 double baseSalary = 200.0;
 double commissionRate = 0.09;
 double totalsales = 0;
-Scanner input = new Scanner(System.in);
-System.out.println("enter the number  of different item sold: ");
+Scanner input = new Scanner(System.in);	
+System.out.println("these are the prices of different items, Item 1 = 239.99$:, Item 2 = 129.75$:, Item 3 = 99.95$:, Item 4 = 350.89$ :"); 
+while(true) {
+System.out.println("ENTER THE ITEM SOLD OR ENTER -1 TO QUIT, 1 FOR ITEM 1, 2 FOR ITEM 2, 3 FOR ITEM 3, 4 FOR ITEM 4: ");
 int numItems = input.nextInt();
-for(int i = 1; i <= numItems; i++) {
-System.out.print("enter the price of item " + i + ": ");
-double price = input.nextDouble();
-System.out.print("Enter the quantity sold for item " + i + ": ");
+if(numItems == -1) {
+  break;
+}
+System.out.print("Enter the quantity sold for item: ");
 int quantity = input.nextInt();
-totalsales += price * quantity;
+if(numItems == 1) {
+totalsales += 239.99 * quantity;
+}
+else if(numItems == 2) {
+totalsales += 129.75 * quantity;
+}
+else if(numItems == 3) {
+totalsales += 99.95 * quantity;
+}
+else if(numItems == 4) {
+totalsales += 350.89 * quantity;
+}
 }
 double commission = totalsales * commissionRate;
 double totalEarnings = baseSalary + commission;
