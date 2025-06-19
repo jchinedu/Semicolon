@@ -3,7 +3,7 @@ public class Tv {
 	int volumeLevel = 1;
 	Boolean on = false;
 
-public TV(){
+public Tv(){
 }
 public void turnon() {
 	on = true;
