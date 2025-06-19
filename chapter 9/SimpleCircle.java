@@ -3,19 +3,18 @@ public class SimpleCircle {
 SimpleCircle() {
 	radius = 1;
 }
-public static double SimpleCircle(double newRadius) {
+SimpleCircle(double newRadius) {
  radius = newRadius;
 }
 
-public static double getArea(){
- return radius * radius * math.pi;
+ double getArea(){
+ return radius * radius * Math.PI;
+}
+ double getPerimeter(){
+ return 2 * radius * Math.PI;
 }
 
-public static double getPerimeter(){
- return 2 * radius * math.pi;
-}
-
-public static void setRadius(double newRadius){
+void setRadius(double newRadius){
   radius = newRadius;
 }
 }
