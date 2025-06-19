@@ -13,19 +13,19 @@ public void turnoff() {
 }
 public void setChannel(int newChannel){
 	if(on && newChannel >= 1 && newChannel <= 120)
-	channel = newChannel;
+	Channel = newChannel;
 }
 public void setVolume(int newVolumeLevel) {
 	if(on && newVolumeLevel >=1 && newVolumeLevel <= 7)
 	volumeLevel = newVolumeLevel;
 }
 public void channelUp() {
-	if(on && channel < 120)
-	channel++;
+	if(on && Channel < 120)
+	Channel++;
 }
 public void channelDown(){
-	if(on && channel > 1)
-	channel--;
+	if(on && Channel > 1)
+	Channel--;
 }
 public void volumeUp() {
 	if(on && volumeLevel < 7)
