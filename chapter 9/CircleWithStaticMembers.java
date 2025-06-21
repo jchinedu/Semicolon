@@ -10,3 +10,10 @@ CircleWithStaticMembers(double newRadius){
  radius = newRadius;
  numberofobjects++;
 }
+static int getNumberOfObjects() {
+	return numberOfObjects;
+}
+double getArea() {
+	return radius * radius * math.pi;
+}
+ }
