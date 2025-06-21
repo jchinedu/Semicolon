@@ -10,3 +10,5 @@ public class TestPoint2d {
 	System.out.print("Enter point2 x-, y-coordinates: ");
 	double x2 = input.nextDouble();
 	double y2 = input.nextDouble();
+
+	point2d p1 = new point2d(x1, y1);
