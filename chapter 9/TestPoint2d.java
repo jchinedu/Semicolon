@@ -13,3 +13,4 @@ public class TestPoint2d {
 
 	point2d p1 = new point2d(x1, y1);
 	point2d p2 = new point2d(x2, y2);
+	System.out.print("p1 is " + p1.toString());
