@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import javafx.geometry.point2d;
+import javafx.geometry.point2D;
 
 public class TestPoint2d {
  public static void main(String[] args){
@@ -12,3 +12,4 @@ public class TestPoint2d {
 	double y2 = input.nextDouble();
 
 	point2d p1 = new point2d(x1, y1);
+	point2d p2 = new point2d(x2, y2);
