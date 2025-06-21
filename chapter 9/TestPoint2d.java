@@ -15,4 +15,7 @@ public class TestPoint2d {
 	point2d p2 = new point2d(x2, y2);
 	System.out.print("p1 is " + p1.toString());
 	System.out.print("p2 is " + p2.toString());
+	System.out.print("the distance between p1 and p2 is " + p1.distance(p2));
+}
+}
 
