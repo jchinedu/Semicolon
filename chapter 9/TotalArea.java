@@ -9,3 +9,10 @@ public static CircleWithPrivateDataFields[] circleArray() {
 	CircleWithPrivateDataFields[] circleArray= new CircleWithPrivateDataFields[5];
 
 for(int i = 0; i < circleArray.length; i++){
+	circleArray[i] = new CircleWithPrivateDataFields(Math.random() * 100);
+}
+
+ return circleArray;
+}
+public static void printCircleArray(CircleWithPrivateDataFields[] circleArray){
+	
