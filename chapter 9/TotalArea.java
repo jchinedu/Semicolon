@@ -3,3 +3,5 @@ public class TotalArea {
 	CircleWithPrivateDataFields[] circleArray;
 
 	circleArray = createCircleArray();
+	printCircleArray(circleArray);
+}
