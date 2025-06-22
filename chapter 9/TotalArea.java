@@ -7,3 +7,5 @@ public class TotalArea {
 }
 public static CircleWithPrivateDataFields[] circleArray() {
 	CircleWithPrivateDataFields[] circleArray= new CircleWithPrivateDataFields[5];
+
+for(int i = 0; i < circleArray.length; i++){
