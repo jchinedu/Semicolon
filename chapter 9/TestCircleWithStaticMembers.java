@@ -7,7 +7,7 @@ public class TestCircleWithStaticMembers {
 	System.out.println("/nAfter creating c1");
 	System.out.println("c1: radius (" + c1.radius + ") and number of circle objects (" + c1.numberOfObjects + ")");
 
-	CircleWithStaticMembers c1 = new CircleWithStaticMembers(5);
+	CircleWithStaticMembers c1 = new CircleWithStaticMembers (5);
 	c1.radius = 9;
 
 	System.out.println("/nAfter creating c2 and modifying c1");
