@@ -19,7 +19,7 @@ public static void printCircleArray(CircleWithPrivateDataFields[] circleArray){
 }
 System.out.println("------------------------------------------------------------");
 
-System.outprintf("%-30s%-15f\n", "the total area of circle is", sum(circleArray));
+System.out.printf("%-30s%-15f\n", "the total area of circle is", sum(circleArray));
 }	
 public static double sum(CircleWithPrivateDataFields[] circleArray){
 double sum = 0;
