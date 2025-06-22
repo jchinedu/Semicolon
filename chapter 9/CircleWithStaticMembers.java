@@ -14,6 +14,6 @@ static int getNumberOfObjects() {
 	return numberOfObjects;
 }
 double getArea() {
-	return radius * radius * math.pi;
+	return radius * radius * Math.PI;
 }
  }
