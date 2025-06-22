@@ -23,3 +23,10 @@ System.outprintf("%-30s%-15f\n", "the total area of circle is", sum(circleArray)
 }	
 public static double sum(CircleWithPrivateDataFields[] circleArray){
 double sum = 0;
+
+for(int i = 0; i < circleArray.length; i++)
+	sum += circleArray[i].getArea();
+
+	return sum;
+}
+ }
