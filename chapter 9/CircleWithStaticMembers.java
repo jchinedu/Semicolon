@@ -3,12 +3,12 @@ public class CircleWithStaticMembers {
 	static int numberOfObjects = 0;
 CircleWithStaticMembers(){
  radius = 1;
- numberofobjects++;
+ numberOfObjects++;
 }
 
 CircleWithStaticMembers(double newRadius){
  radius = newRadius;
- numberofobjects++;
+ numberOfObjects++;
 }
 static int getNumberOfObjects() {
 	return numberOfObjects;
