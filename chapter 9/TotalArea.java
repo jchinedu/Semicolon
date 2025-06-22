@@ -17,4 +17,7 @@ for(int i = 0; i < circleArray.length; i++){
 public static void printCircleArray(CircleWithPrivateDataFields[] circleArray){
  System.out.printf("%-30s%-15s\n", cricleArray[i].getRadius(), circleArray[i].getArea());
 }
-	
+System.out.println("------------------------------------------------------------");
+
+System.outprintf("%-30s%-15f\n", "the total area of circle is", sum(circleArray));
+}	
