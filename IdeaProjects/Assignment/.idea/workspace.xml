@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33e7b16b-0910-4f37-a9c5-c2377986da54" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2z6PEoMOyOt9GmMcbSPudu8xiuR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.AirConditionAppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionAppTest.testAcCanNotBeNegative.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionAppTest.testThatICanDecreaseTemperature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionAppTest.testThatICanIncreaseTemperature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionAppTest.testThatOnAirConditioner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionAppTest.testthaticandecreasetemperatureto16.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirConditionAppTest.testthaticanincreasetemperatureto30.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirconditionAppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirconditionAppTest.testThatICanDecreaseTemperature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirconditionAppTest.testThatICanIncreaseTemperature.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirconditionAppTest.testThatOffAirConditioner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirconditionAppTest.testThatOnAirConditioner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirconditionAppTest.testThatOnAirConditionerAndOffAirConditioner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirconditionAppTest.testThatOnAirConditionerFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirconditionAppTest.testthaticanincreasetemperatureto30.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AirconditionTest.testThatOnAirConditioner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in Assignment.executor&quot;: &quot;Coverage&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL/IdeaProjects/Assignment/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.All in Assignment">
+    <configuration name="AirConditionAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AirConditionerAPP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AirConditionerAPP" />
+      <option name="MAIN_CLASS_NAME" value="AirConditionerAPP.AirConditionAppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirConditionAppTest.testAcCanNotBeNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AirConditionerAPP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AirConditionerAPP" />
+      <option name="MAIN_CLASS_NAME" value="AirConditionerAPP.AirConditionAppTest" />
+      <option name="METHOD_NAME" value="testAcCanNotBeNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirConditionAppTest.testThatICanDecreaseTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AirConditionerAPP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AirConditionerAPP" />
+      <option name="MAIN_CLASS_NAME" value="AirConditionerAPP.AirConditionAppTest" />
+      <option name="METHOD_NAME" value="testThatICanDecreaseTemperature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirConditionAppTest.testthaticandecreasetemperatureto16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AirConditionerAPP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AirConditionerAPP" />
+      <option name="MAIN_CLASS_NAME" value="AirConditionerAPP.AirConditionAppTest" />
+      <option name="METHOD_NAME" value="testthaticandecreasetemperatureto16" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Assignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in Assignment" />
+        <item itemvalue="JUnit.AirConditionAppTest" />
+        <item itemvalue="JUnit.AirConditionAppTest.testAcCanNotBeNegative" />
+        <item itemvalue="JUnit.AirConditionAppTest.testthaticandecreasetemperatureto16" />
+        <item itemvalue="JUnit.AirConditionAppTest.testThatICanDecreaseTemperature" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33e7b16b-0910-4f37-a9c5-c2377986da54" name="Changes" comment="" />
+      <created>1751048442789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751048442789</updated>
+      <workItem from="1751048444357" duration="1961000" />
+      <workItem from="1751050562488" duration="29000" />
+      <workItem from="1751050600533" duration="35000" />
+      <workItem from="1751050647372" duration="14442000" />
+      <workItem from="1751093343466" duration="32000" />
+      <workItem from="1751093530224" duration="19000" />
+      <workItem from="1751093675053" duration="16000" />
+      <workItem from="1751093749236" duration="14000" />
+      <workItem from="1751093843855" duration="13000" />
+      <workItem from="1751093983666" duration="21000" />
+      <workItem from="1751096275826" duration="691000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/AirConditionerAPP/AirConditionAppTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/AirConditionerAPP/AirConditionAppTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/AirConditionerAPP/AirConditionAppTest.java</url>
+          <line>10</line>
+          <properties class="AirConditionerAPP.AirConditionAppTest" method="testThatOnAirConditioner">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/AirConditionerAPP/AirConditionAppTest.java</url>
+          <line>18</line>
+          <properties class="AirConditionerAPP.AirConditionAppTest" method="testThatICanIncreaseTemperature">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Assignment$All_in_Assignment.ic" NAME="All in Assignment Coverage Results" MODIFIED="1751071343177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>
