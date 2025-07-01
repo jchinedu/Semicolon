@@ -25,41 +25,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "JUnit.TestAutomaticBike.executor": "Run",
-    "JUnit.TestAutomaticBike.testAccelerateOnGearFour.executor": "Run",
-    "JUnit.TestAutomaticBike.testAccelerateOnGearOne.executor": "Run",
-    "JUnit.TestAutomaticBike.testAccelerateOnGearThree.executor": "Run",
-    "JUnit.TestAutomaticBike.testAccelerateOnGearTwo.executor": "Run",
-    "JUnit.TestAutomaticBike.testDecelerateOnGearFour.executor": "Run",
-    "JUnit.TestAutomaticBike.testDecelerateOnGearOne.executor": "Run",
-    "JUnit.TestAutomaticBike.testDecelerateOnGearThree.executor": "Run",
-    "JUnit.TestAutomaticBike.testDecelerateOnGearTwo.executor": "Run",
-    "JUnit.TestAutomaticBike.testGearChangesAutomatically.executor": "Run",
-    "JUnit.TestAutomaticBike.testGearShiftsCorrectly.executor": "Run",
-    "JUnit.TestAutomaticBike.testSpeedDoesNotGoBelowZero.executor": "Run",
-    "JUnit.TestAutomaticBike.testThatTheBikeCanBeAccelerated.executor": "Run",
-    "JUnit.TestAutomaticBike.testThatTheBikeCanBeAcceleratedOnGear2.executor": "Run",
-    "JUnit.TestAutomaticBike.testTheBikeCanBeTurnedOff.executor": "Run",
-    "JUnit.TestAutomaticBike.testTheBikeCanBeTurnedOn.executor": "Run",
-    "JUnit.testAutomaticBike.testTheBikeCanBeTurnedOn.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/BikeProject/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.TestAutomaticBike.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testAccelerateOnGearFour.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testAccelerateOnGearOne.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testAccelerateOnGearThree.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testAccelerateOnGearTwo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testDecelerateOnGearFour.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testDecelerateOnGearOne.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testDecelerateOnGearThree.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testDecelerateOnGearTwo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testGearChangesAutomatically.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testGearShiftsCorrectly.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testSpeedDoesNotGoBelowZero.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testThatTheBikeCanBeAccelerated.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testThatTheBikeCanBeAcceleratedOnGear2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testTheBikeCanBeTurnedOff.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testTheBikeCanBeTurnedOn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.testAutomaticBike.testTheBikeCanBeTurnedOn.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL/IdeaProjects/BikeProject/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.TestAutomaticBike">
     <configuration name="TestAutomaticBike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeProject" />
@@ -172,7 +175,12 @@
       <workItem from="1751093765233" duration="75000" />
       <workItem from="1751093858105" duration="122000" />
       <workItem from="1751094006194" duration="2224000" />
-      <workItem from="1751102395100" duration="20021000" />
+      <workItem from="1751102395100" duration="23818000" />
+      <workItem from="1751326819368" duration="36000" />
+      <workItem from="1751326882346" duration="29000" />
+      <workItem from="1751326935064" duration="5000" />
+      <workItem from="1751375567205" duration="807000" />
+      <workItem from="1751376400903" duration="373000" />
     </task>
     <servers />
   </component>
