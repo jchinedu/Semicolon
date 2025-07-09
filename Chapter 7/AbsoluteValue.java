@@ -4,4 +4,5 @@ public static void main(String[] args) {
 	for(String arg : args){
 	try{
 	int number = integer.parseint(arg);
+	int absolute = Math.abs(number);
 	
