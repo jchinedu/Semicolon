@@ -8,3 +8,13 @@ public static void main(String[] args){
 	int first = Integer.parseInt(arg[0]);
 	int min = first;
 	int max = first;
+	for(String arg : args){
+	int num = Integer.parseInt(arg)
+
+	if(num > max){
+	max = num;
+	}
+	if(num < min){
+	min = num;
+	}
+	
