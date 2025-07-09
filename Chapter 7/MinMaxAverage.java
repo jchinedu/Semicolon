@@ -17,4 +17,9 @@ public static void main(String[] args){
 	if(num < min){
 	min = num;
 	}
+ }
+ double average = (min + max) / 2;
+System.out.print("the minimun is " + min);
+System.out.print("the maximum is " + max);
+System.out.print("the average is " + average);
 	
