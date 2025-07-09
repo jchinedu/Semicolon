@@ -22,4 +22,6 @@ public static void main(String[] args){
 System.out.print("the minimun is " + min);
 System.out.print("the maximum is " + max);
 System.out.print("the average is " + average);
+}catch(NumberFormatExceotion e){
+System.out.print("the number entered is invalid, sorry");
 	
