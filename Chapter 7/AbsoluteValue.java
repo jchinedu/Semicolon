@@ -5,4 +5,4 @@ public static void main(String[] args) {
 	try{
 	int number = integer.parseint(arg);
 	int absolute = Math.abs(number);
-	System.out.println("
+	System.out.println("Absolute value of" + number +" is " + absolute);
