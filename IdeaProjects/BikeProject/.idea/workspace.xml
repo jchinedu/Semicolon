@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="095ed461-8f47-4ea0-921c-0791d3694764" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2z7BEfGY06wcP3Iep4DXW9vJeUs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.TestAutomaticBike.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testAccelerateOnGearFour.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testAccelerateOnGearOne.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testAccelerateOnGearThree.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testAccelerateOnGearTwo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testDecelerateOnGearFour.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testDecelerateOnGearOne.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testDecelerateOnGearThree.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testDecelerateOnGearTwo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testGearChangesAutomatically.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testGearShiftsCorrectly.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testSpeedDoesNotGoBelowZero.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testThatTheBikeCanBeAccelerated.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testThatTheBikeCanBeAcceleratedOnGear2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testTheBikeCanBeTurnedOff.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAutomaticBike.testTheBikeCanBeTurnedOn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.testAutomaticBike.testTheBikeCanBeTurnedOn.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL/IdeaProjects/BikeProject/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.TestAutomaticBike">
+    <configuration name="TestAutomaticBike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutomaticBike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AutomaticBike" />
+      <option name="MAIN_CLASS_NAME" value="AutomaticBike.TestAutomaticBike" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAutomaticBike.testDecelerateOnGearFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutomaticBike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AutomaticBike" />
+      <option name="MAIN_CLASS_NAME" value="AutomaticBike.TestAutomaticBike" />
+      <option name="METHOD_NAME" value="testDecelerateOnGearFour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAutomaticBike.testGearChangesAutomatically" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutomaticBike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AutomaticBike" />
+      <option name="MAIN_CLASS_NAME" value="AutomaticBike.TestAutomaticBike" />
+      <option name="METHOD_NAME" value="testGearChangesAutomatically" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAutomaticBike.testGearShiftsCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutomaticBike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AutomaticBike" />
+      <option name="MAIN_CLASS_NAME" value="AutomaticBike.TestAutomaticBike" />
+      <option name="METHOD_NAME" value="testGearShiftsCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAutomaticBike.testSpeedDoesNotGoBelowZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutomaticBike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AutomaticBike" />
+      <option name="MAIN_CLASS_NAME" value="AutomaticBike.TestAutomaticBike" />
+      <option name="METHOD_NAME" value="testSpeedDoesNotGoBelowZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAutomaticBike" />
+        <item itemvalue="JUnit.TestAutomaticBike.testSpeedDoesNotGoBelowZero" />
+        <item itemvalue="JUnit.TestAutomaticBike.testGearShiftsCorrectly" />
+        <item itemvalue="JUnit.TestAutomaticBike.testGearChangesAutomatically" />
+        <item itemvalue="JUnit.TestAutomaticBike.testDecelerateOnGearFour" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="095ed461-8f47-4ea0-921c-0791d3694764" name="Changes" comment="" />
+      <created>1751072122148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751072122148</updated>
+      <workItem from="1751072123496" duration="2958000" />
+      <workItem from="1751093377682" duration="148000" />
+      <workItem from="1751093551199" duration="120000" />
+      <workItem from="1751093692651" duration="54000" />
+      <workItem from="1751093765233" duration="75000" />
+      <workItem from="1751093858105" duration="122000" />
+      <workItem from="1751094006194" duration="2224000" />
+      <workItem from="1751102395100" duration="23818000" />
+      <workItem from="1751326819368" duration="36000" />
+      <workItem from="1751326882346" duration="29000" />
+      <workItem from="1751326935064" duration="5000" />
+      <workItem from="1751375567205" duration="807000" />
+      <workItem from="1751376400903" duration="373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
