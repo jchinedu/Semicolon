@@ -1,4 +1,4 @@
-public class    {
+/*public class    {
  public static void main(String[] args) {
 	int[] a = {1, 2};
 
@@ -26,4 +26,4 @@ public static void swapFirsttwoinArray(int[] array) {
  array[0] = array[1];
 array[1] = temp;
 }
-}
+}*/
