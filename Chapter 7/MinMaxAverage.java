@@ -5,11 +5,11 @@ public static void main(String[] args){
 	return;
 }
 	try{
-	int first = Integer.parseInt(arg[0]);
+	int first = Integer.parseInt(args[0]);
 	int min = first;
 	int max = first;
 	for(String arg : args){
-	int num = Integer.parseInt(arg)
+	int num = Integer.parseInt(arg);
 
 	if(num > max){
 	max = num;
@@ -19,9 +19,12 @@ public static void main(String[] args){
 	}
  }
  double average = (min + max) / 2;
-System.out.print("the minimun is " + min);
-System.out.print("the maximum is " + max);
-System.out.print("the average is " + average);
-}catch(NumberFormatExceotion e){
+System.out.println("the minimun is " + min);
+System.out.println("the maximum is " + max);
+System.out.println("the average is " + average);
+}catch(NumberFormatException e){
 System.out.print("the number entered is invalid, sorry");
+}
+}
+}
 	
