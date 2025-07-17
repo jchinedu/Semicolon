@@ -4,7 +4,6 @@ public class MainApplication {
     public static void main(String[] args) {
         Diaries diaries = new Diaries();
         diaries.Add("john", "1234");
-
-    }
+        Diary johnDiary = diaries.findByUsername("john");
     }
 }
