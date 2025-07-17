@@ -72,5 +72,15 @@ public class Diary {
         return null;
     }
 
+
+    public void showAllEntries() {
+        if (Entries.isEmpty()) {
+            System.out.println("No entries found.");
+        } else {
+            for (Entry entry : Entries) {
+                System.out.println(entry);
+            }
+        }
+    }
 }
 
