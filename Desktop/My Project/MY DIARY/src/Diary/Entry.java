@@ -4,8 +4,8 @@ import java.time.LocalDateTime;
 
 public class Entry {
     private int id;
-    private String title;
-    private String body;
+    private static String title;
+    private static String body;
     private LocalDateTime dateCreated;
     public Entry(int id, String title, String body) {
         this.id = id;
@@ -17,11 +17,11 @@ public class Entry {
         return id;
     }
 
-    public String getTitle() {
+    public static String getTitle() {
         return title;
     }
 
-    public String getBody() {
+    public static String getBody() {
         return body;
     }
 

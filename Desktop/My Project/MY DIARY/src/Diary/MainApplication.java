@@ -7,6 +7,6 @@ public class MainApplication {
         Diary johnDiary = diaries.findByUsername("john");
         johnDiary.unlockDiary("1234");
         johnDiary.CreateEntry("My First Entry", "Today was amazing.");
-        Entry entry = johnDiary.findEntryById(1);
+        System.out.println(Entry.getTitle() + ": " + Entry.getBody());
     }
 }
