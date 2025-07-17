@@ -12,18 +12,18 @@ import java.util.Scanner;
 
             while (running) {
                 System.out.println("""
-                    \n==== Diary Menu ====
-                    1. Create Diary
-                    2. Unlock Diary
-                    3. Lock Diary
-                    4. Add Entry
-                    5. View Entry by ID
-                    6. Update Entry
-                    7. Delete Entry
-                    8. Show All Entries
-                    9. Exit
-                    ====================
-                    """);
+                        \n==== Diary Menu ====
+                        1. Create Diary
+                        2. Unlock Diary
+                        3. Lock Diary
+                        4. Add Entry
+                        5. View Entry by ID
+                        6. Update Entry
+                        7. Delete Entry
+                        8. Show All Entries
+                        9. Exit
+                        ====================
+                        """);
                 System.out.print("Choose an option: ");
                 int choice = scanner.nextInt();
                 scanner.nextLine(); // consume newline
@@ -134,7 +134,5 @@ import java.util.Scanner;
                     default -> System.out.println("Invalid option.");
                 }
             }
-
-            scanner.close();
         }
     }
