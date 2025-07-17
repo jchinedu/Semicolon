@@ -5,5 +5,6 @@ public class MainApplication {
         Diaries diaries = new Diaries();
         diaries.Add("john", "1234");
         Diary johnDiary = diaries.findByUsername("john");
+        johnDiary.unlockDiary("1234");
     }
 }
