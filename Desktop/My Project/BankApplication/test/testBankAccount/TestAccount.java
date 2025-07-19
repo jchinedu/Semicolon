@@ -14,14 +14,14 @@ public class TestAccount {
 
         @Test
         public void testAccount_with_zero_balance() {
-            this.johnaccount.getBalance();
-            assertEquals(this.johnaccount.getBalance(), 0);
+            johnaccount.getBalance();
+            assertEquals(johnaccount.getBalance(), 0);
         }
 
         @Test
         public void testAccount_can_deposit() {
-            this.johnaccount.deposit(2000);
-            assertEquals(this.johnaccount.getBalance(), 2000);
+            johnaccount.deposit(2000);
+            assertEquals(johnaccount.getBalance(), 2000);
         }
 
         @Test
