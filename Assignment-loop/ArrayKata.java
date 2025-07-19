@@ -108,6 +108,31 @@ public static int[] squareNumbersIn (int[] ArrayOfIntegers) {
 }
 	return square;
 }
+public static int [] sortingArray(int [] number){
+
+
+for(int index = 0; index < number.length; index++){
+
+ for(int j = index + 1; j < number.length; j++){
+
+      if(number[index] > number[j]){
+
+	int temp = number[index];
+	number[index] = number[j];
+	number[j] * number[j] = temp;
+		}
+
+}
+
+	}
+
+
+	return number;
+
+
+	}
+public 
+
 	
 }
 

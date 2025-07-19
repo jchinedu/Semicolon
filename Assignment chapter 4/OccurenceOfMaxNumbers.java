@@ -9,7 +9,7 @@ public class OccurenceOfMaxNumbers {
 	int number = input.nextInt();
 	int largest = number;
 	int numbersEnterd = 2;
-	while(numbersEnterd <= Tnumber) {
+	while(numbersEnterd <=   Tnumber) {
 	System.out.print("enter number " + numbersEnterd + ": ");
 	number = input.nextInt();
 	numbersEnterd++;

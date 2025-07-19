@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class ArrayCarter {
  public static int john(int[] number) {
 	int count = 0;
@@ -34,6 +35,10 @@ public static int[] ArrangeArray(int[] Number) {
 }
 	return Numbers;	
 }
+public static void main(String[] args){
+int[] input = {1,1,1,1};
+System.out.print(Arrays.toString(ArrangeArray(input)));
 
 }	
+}
 		

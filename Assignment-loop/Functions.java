@@ -42,7 +42,7 @@ public static String findMultiplesOf7Not5() {
             }
         }
         if (result.length() > 0) {
-            return result.substring(0, result.length() - 1);
+            return result.substring(0, result.length() - 1); 
         } else {
             return result; 
         }
