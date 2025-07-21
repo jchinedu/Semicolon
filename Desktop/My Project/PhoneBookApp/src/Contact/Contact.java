@@ -4,10 +4,11 @@ public class Contact {
     private String firstName;
     private String lastName;
     private String phoneNumber;
+
     public Contact(String firstName, String lastName, String phoneNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.phoneNumber = phoneNumber;
+        setPhoneNumber(phoneNumber);
     }
 
     public String getFirstName() {
@@ -19,40 +20,41 @@ public class Contact {
     }
 
     public String getPhoneNumber() {
-            String[] validPrefixes = {"080", "070", "090", "081", "091"};
+        return phoneNumber;
+    }
 
-            boolean isValidPrefix = false;
-            for (String prefix : validPrefixes) {
-                if (phoneNumber.startsWith(prefix)) {
-                    isValidPrefix = true;
-                    break;
-                }
+    public void setPhoneNumber(String number) {
+        String[] validPrefixes = {"080", "070", "090", "081", "091"};
+
+        boolean isValidPrefix = false;
+        for (String prefix : validPrefixes) {
+            if (number.startsWith(prefix)) {
+                isValidPrefix = true;
+                break;
             }
-
-            if (!isValidPrefix) {
-                throw new PhoneNumberException();
-            }
-
-            if (phoneNumber.length() != 11) {
-                throw new PhoneNumberMustBeEleven();
-            }
-
-            return phoneNumber;
         }
 
+        if (!isValidPrefix) {
+            throw new PhoneNumberException();
+        }
 
-        public void setPhoneNumber(String number) {
+        if (number.length() != 11) {
+            throw new PhoneNumberMustBeEleven();
+        }
+
         this.phoneNumber = number;
     }
 
-    public void setLastName(String LastName) {
-        this.lastName = LastName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
-    public void setFirstName(String FirstName) {
-        this.firstName = FirstName;
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
+
     @Override
     public String toString() {
-        return firstName + " " + lastName + "-" + phoneNumber;
+        return firstName + " " + lastName + " - " + phoneNumber;
     }
 }

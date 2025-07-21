@@ -1,7 +1,7 @@
 package TestContact;
 import Contact.Contact;
 import org.junit.jupiter.api.Test;
-import Contact.*;
+import Contact.* ;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
