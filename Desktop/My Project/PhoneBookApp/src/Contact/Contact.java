@@ -19,14 +19,29 @@ public class Contact {
     }
 
     public String getPhoneNumber() {
-        if (!phoneNumber.startsWith("0") || phoneNumber.length() != 11) {
-            throw new PhoneNumberMustBeEleven();
+            String[] validPrefixes = {"080", "070", "090", "081", "091"};
+
+            boolean isValidPrefix = false;
+            for (String prefix : validPrefixes) {
+                if (phoneNumber.startsWith(prefix)) {
+                    isValidPrefix = true;
+                    break;
+                }
+            }
+
+            if (!isValidPrefix) {
+                throw new PhoneNumberException();
+            }
+
+            if (phoneNumber.length() != 11) {
+                throw new PhoneNumberMustBeEleven();
+            }
+
+            return phoneNumber;
         }
 
-        return phoneNumber;
-    }
 
-    public void setPhoneNumber(String number) {
+        public void setPhoneNumber(String number) {
         this.phoneNumber = number;
     }
 
@@ -35,5 +50,9 @@ public class Contact {
     }
     public void setFirstName(String FirstName) {
         this.firstName = FirstName;
+    }
+    @Override
+    public String toString() {
+        return firstName + " " + lastName + "-" + phoneNumber;
     }
 }

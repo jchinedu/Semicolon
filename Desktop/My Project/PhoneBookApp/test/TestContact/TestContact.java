@@ -1,7 +1,7 @@
 package TestContact;
 import Contact.Contact;
 import org.junit.jupiter.api.Test;
-import Contact.PhoneNumberMustBeEleven;
+import Contact.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -31,7 +31,17 @@ public class TestContact {
         assertEquals("Smith", mycontact.getLastName());
         assertEquals("08061328142", mycontact.getPhoneNumber());
     }
+    @Test
+    public void testToString() {
+        Contact contact = new Contact("John", "Doe", "0912345678");
+        String expected = "John Doe-0912345678";
+        assertEquals(expected, contact.toString());
 
-
+    }
+    @Test
+    public void testThatPhoneNumberStartsWithTheRightNumber(){
+        Contact mycontact = new Contact("John", "Doe", "0002345678");
+        assertThrows(PhoneNumberException.class, () -> mycontact.getPhoneNumber());
+    }
 }
 
