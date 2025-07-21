@@ -11,6 +11,6 @@ public class BinaryNumber {
 	Number = Number / 2;
 	}
 	System.out.println(john.reverse());
-}
- }
+} 
+ } 
 	

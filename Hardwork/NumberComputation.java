@@ -1,4 +1,4 @@
-print('Number Computational')
+/*print('Number Computational')
 
 FirstNumber = int(input('Enter a number: '))
 SecondNumber = int(input('Enter a number: '))
@@ -30,4 +30,4 @@ print("Sum:", total)
 print("Product:", product)
 print("Largest:", largest)
 print("Lowest:", lowest)
-print("Average:", average)
+print("Average:", average)*/

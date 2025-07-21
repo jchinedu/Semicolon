@@ -6,14 +6,15 @@ public static boolean isEven(int number){
 
 public static boolean isPrimeNumber(int number) {
 	if (number <= 1) return false;
-	for (int i = 2; i <= number / 2; i++) {
+	int sqrt = (int)Math.sqrt(num);
+    for (int i = 2; i <= sqrt; i++) {
         if (number % i == 0) {
             return false;
-  }  
+  }   
   }
 	return true;
   }
- public static int subtract(int number1, int number2) {
+ public static int subtr act(int number1, int number2) {
         if (number1 > number2) {
             return number1 - number2;
         } else {

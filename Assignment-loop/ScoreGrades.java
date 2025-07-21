@@ -14,7 +14,7 @@ public class ScoreGrades {
 	int score = input.nextInt();
 	if(score < 0 || score > 100) {
 	System.out.println("Score out of range, please enter a score between 0 and 100");
-	Vcount++;
+	Vcount++; 
 	continue;
 	}
 	validcount++;
