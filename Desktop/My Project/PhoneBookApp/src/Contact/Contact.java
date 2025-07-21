@@ -9,4 +9,16 @@ public class Contact {
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
 }
