@@ -15,6 +15,7 @@ public class TestPhoneBook {
     @BeforeEach
     public void setUp() {
         phoneBook = new PhoneBook();
+        phoneBook.addContact(new Contact("Old", "Name", "08041994299"));
         phoneBook.addContact(new Contact("John", "Doe", "08161247817"));
         phoneBook.addContact(new Contact("Jane", "Doe", "08061328142"));
         phoneBook.addContact(new Contact("Jake", "Smith", "07046591103"));
@@ -46,13 +47,14 @@ public class TestPhoneBook {
     public void testEditContact() {
         Contact newInfo = new Contact("Johnny", "Bravo", "09109987612");
         boolean edited = phoneBook.editContact("08041994299", newInfo);
-
         assertTrue(edited);
-        Contact updated = phoneBook.findByPhoneNumber("08041994299");
+        Contact updated = phoneBook.findByPhoneNumber("09109987612");
         assertNotNull(updated);
         assertEquals("Johnny", updated.getFirstName());
+        assertEquals("Bravo", updated.getLastName());
         assertNull(phoneBook.findByPhoneNumber("08041994299"));
     }
+
 
 
 }

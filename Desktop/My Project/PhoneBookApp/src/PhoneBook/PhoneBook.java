@@ -57,4 +57,25 @@ public class PhoneBook {
         }
         return results;
     }
+    public boolean editContact(String oldNumber, Contact newInfo) {
+        for (int i = 0; i < contacts.size(); i++) {
+            Contact contact = contacts.get(i);
+            if (contact.getPhoneNumber().equals(oldNumber)) {
+                contacts.set(i, newInfo);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void listAllContacts() {
+        if (contacts.isEmpty()) {
+            System.out.println("Phone book is empty.");
+        } else {
+            for (Contact contact : contacts) {
+                System.out.println(contact);
+            }
+        }
+    }
+
 }
