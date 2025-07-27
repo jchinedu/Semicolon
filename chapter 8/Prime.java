@@ -8,4 +8,5 @@ public class Prime {
       return false;
        }
      }
+      return true;
                                
