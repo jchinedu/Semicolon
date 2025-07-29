@@ -5,6 +5,10 @@ public class PangramChecker {
 For (int i = 0; i < sentence.length(); i++) {
 char c = sentence.charAt(i);
  if (c >= 'a' && c <= 'z') {
+ seen[c - 'a'] = true; 
+            }
+       
+         
                
            
 
