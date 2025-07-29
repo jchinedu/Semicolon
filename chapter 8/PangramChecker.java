@@ -7,7 +7,9 @@ char c = sentence.charAt(i);
  if (c >= 'a' && c <= 'z') {
  seen[c - 'a'] = true; 
             }
-       
+ }
+        for (boolean letterSeen : seen) {
+            
          
                
            
