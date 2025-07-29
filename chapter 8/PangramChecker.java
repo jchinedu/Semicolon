@@ -9,6 +9,9 @@ char c = sentence.charAt(i);
             }
  }
         for (boolean letterSeen : seen) {
+if (!letterSeen) {
+               
+       
             
          
                
