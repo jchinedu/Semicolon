@@ -5,4 +5,5 @@ public class SquareDigit {
     String numberStr = String.valueOf(n);
     for (char digitChar : numberStr.toCharArray()) {
       int digit = Character.getNumericValue(digitChar);
+      int square = digit * digit;
       
