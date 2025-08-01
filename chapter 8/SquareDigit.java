@@ -11,3 +11,4 @@ public class SquareDigit {
 
     return Integer.parseInt(result.toString());
  }
+}
