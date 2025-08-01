@@ -4,4 +4,5 @@ public class SquareDigit {
   StringBuilder result = new StringBuilder();
     String numberStr = String.valueOf(n);
     for (char digitChar : numberStr.toCharArray()) {
+      int digit = Character.getNumericValue(digitChar);
       
