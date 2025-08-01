@@ -9,4 +9,5 @@ public class SquareDigit {
       result.append(square);
     }
 
-   
+    return Integer.parseInt(result.toString());
+ 
