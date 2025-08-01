@@ -7,4 +7,6 @@ public class SquareDigit {
       int digit = Character.getNumericValue(digitChar);
       int square = digit * digit;
       result.append(square);
+    }
+
    
