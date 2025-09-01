@@ -22,45 +22,199 @@ header .banner {
 }
 .search-bar {
     width: 100%;
-    height: 70px;
+    height: 60px;
     display: flex;
     background-color: #ed017f;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
 }
-.search-bar img {
+ .search-bar img {
     width: 120px;
     height: 40px;
-}
-.search-bar .user-options {
-    width: 30%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f6f6f6;
-}
-.store {
-    width: 30%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+ }
+
 .search-text img {
-    width: 60%;
+    width: 50%;
     height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .search-text {
-    width: 70%;
-    height: 30px;
+    width: 700px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-self: center;
+    border: 10px;
 }
-.search-text .submit {
-    width: 70px
+.search-text input {
+    width: 60%;
     height: 30px;
-    background-color: #f6f6f6;
+    border: none;
     padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+
+.submit {
+    width:30px;
+    height: 30px;
+    background-color: rgb(249,160,36);
+    border-left: 10px;
+    justify-content: space-evenly;
+    border-radius: 0 5px 5px 0;
+   
+}
+.cart {
+    background-color: rgb(97, 175, 110);
+    width: 110px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.cart img {
+    width: 50px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+}
+header .sub-header{
+    width: 100%;
+    height: 45px;
+    background-color: #94004f;
+    color: white;
+}
+header .sub-header .sub-header-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    list-style: none;              
+    padding: 0;
+    margin: 0;
+}
+header .sub-header .sub-header-list li {
+    flex: 1;                       
+    text-align: center;           
+}
+
+header .sub-header .sub-header-list a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px; 
+    transition: all 0.3s ease; 
+}
+header .sub-header .sub-header-list a:hover {
+    background-color: white;
+    color: black;
+}
+.main-banner {
+    display: flex;
+    width: 100vw;
+    height: 500px; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 20px; 
+}
+
+.slider-container {
+    width: 900px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.slider {
+    display: flex;
+    height: 100%;
+    width: calc(900px * 6); 
+    animation: slide 30s infinite;
+}
+
+.slider img {
+    width: 900px;
+    height: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+
+.side-banners-grid {
+    flex: 1;  
+    display: grid;
+    height: 100%; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; 
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.side-banners-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block
+}
+
+
+@keyframes slide {
+    0%, 16.66%   { transform: translateX(0); }
+    20%, 36.66%  { transform: translateX(-900px); }
+    40%, 56.66%  { transform: translateX(-1800px); }
+    60%, 76.66%  { transform: translateX(-2700px); }
+    80%, 96.66%  { transform: translateX(-3600px); }
+    100%         { transform: translateX(-4500px); }
+}
+/* Wrapper matches the total top section width */
+.sub-heading-wrapper {
+  width: 1200px;
+  margin: 20px auto; /* centers the row */
+}
+
+/* Flex row for 6 small image boxes */
+.sub-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px; /* space between image boxes */
+}
+
+/* Image container box (small rectangle) */
+.sub-heading a {
+  display: block;
+  width: calc((1200px - (7 * 15px)) / 6); /* divide 1200px across 6 boxes with 5 gaps */
+  height: 40px; /* ✅ Small rectangle height */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.sub-heading a:hover {
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* Image styling inside the box */
+.sub-heading img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
